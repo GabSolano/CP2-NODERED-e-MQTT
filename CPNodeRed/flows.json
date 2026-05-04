@@ -1,0 +1,22 @@
+[
+    {
+        "id": "15ecbd171ca1ac1d",
+        "type": "function",
+        "z": "86ca56196ea8d067",
+        "name": "Prepara INSERT Oracle",
+        "func": "msg.query = \"INSERT INTO dados_sensores (temperatura) VALUES (\" + msg.payload + \")\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 900,
+        "wires": [
+            [
+                "938f9af2fa13b406"
+            ]
+        ]
+    }
+]
